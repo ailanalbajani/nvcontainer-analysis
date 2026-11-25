@@ -1,0 +1,12 @@
+type,value,context,confidence
+sha256,2512de03d705e3acabb057ca66aa74614a5c661988254428b09ad96c8f3debf6,NvContainer.exe outer sample,high
+sha1,24f32b4bf7443894f611032fdb28a17d5358f95d,NvContainer.exe outer sample,high
+md5,df4097c658615e2233fb3bce067599ea,NvContainer.exe outer sample,high
+imphash,d707534d94c56176dcef2373a210dd82,outer sample,medium
+domain,discauth.net,loader service,high
+url,https://discauth.net/Auth/LoaderMapper.capp,stage 2 delivery endpoint,high
+ip,104.26.1.205,hardcoded; shared CDN address; do not block on its own,low
+ip,172.67.74.91,hardcoded; shared CDN address; do not block on its own,low
+ip,104.26.0.205,hardcoded; shared CDN address; do not block on its own,low
+filename,NvContainer.exe,same name as a legitimate NVIDIA component,low
+path,\EFI\ebsdat.dat,referenced by stage 2,low
